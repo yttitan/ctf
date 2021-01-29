@@ -22,3 +22,9 @@ Input base:@iH<,{bdR2H;i6*Tm,Wx2izpx2!
 [-] b92decode wrong
 
 ```
+### baseStego.py可提取Base64隐写信息
+```
+root@kali:~/mygit# ./baseStego.py 
+请输入要提取隐写信息的文件路径：stego.txt
+Base_sixty_four_point_five
+```
