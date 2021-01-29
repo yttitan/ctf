@@ -28,3 +28,14 @@ root@kali:~/mygit# ./baseStego.py
 请输入要提取隐写信息的文件路径：stego.txt
 Base_sixty_four_point_five
 ```
+### morse.py可解密摩斯密码，密码之后可以是空格间隔，也可以是/间隔。密码形式可以是.-，也可以是01，同时输出大小写明文。
+```
+root@kali:~/mygit# ./morse.py 
+11 111 010 000 0 1010 111 100 0 00 000 000 111 00 10 1 0 010 0 000 1 00 10 110
+MORSECODEISSOINTERESTING
+morsecodeissointeresting
+root@kali:~/mygit# ./morse.py 
+..-. .-.. .- --. . --... .---- -.-. .- ..... -.-. -.. -....- --... -.. -... ----. -....- ....- -... .- ...-- -....- ----. ...-- ---.. ...-- -....- .---- .- ..-. ---.. -.... --... ---.. ---.. .---- ..-. ----- --...
+FLAGE71CA5CD-7DB9-4BA3-9383-1AF867881F07
+flage71ca5cd-7db9-4ba3-9383-1af867881f07
+```
