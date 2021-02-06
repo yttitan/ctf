@@ -41,9 +41,16 @@ flage71ca5cd-7db9-4ba3-9383-1af867881f07
 ```
 ### kaisa.py可解凯撒密码，并能自动推荐最有可能的明文。
 ```
-root@kali:~/mygit# ./kaisa.py 
+# ./kaisa.py 
 请输入密文：synt{mur_VF_syn9_svtug1at}
 需要推荐明文吗?(Y/N)y
 
 明文可能是： flag{zhe_IS_fla9_fight1ng}
+```
+### bacon.py可解培根密码，分别用两种密码表解密，并自动将英文大小写字母转换为AB形式的标准密文。
+```
+# ./bacon.py 
+请输入密文：bacoN is one of aMerICa'S sWEethEartS. it's A dARlinG, SuCCulEnt fOoD tHAt PaIRs FlawLE
+标准培根密码表：  bacon(ij)snotfood
+扩展培根密码表：  bacnmirmnsfnnd
 ```
