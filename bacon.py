@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-def trans(txt): #将大小写字母分别转换为ab和ba
+def trans(txt): 
+    '''将大小写字母分别转换为ab和ba'''
     result1 = result2 = ''
     for i in txt:
         if i.isupper():
@@ -11,7 +12,8 @@ def trans(txt): #将大小写字母分别转换为ab和ba
             result2 = result2 + 'a'
     return result1,result2
 
-def bacon(txt):#对密文按两种不同的密码表分别解密
+def bacon(txt):
+    '''对密文按两种不同的密码表分别解密'''
     cipher1 = ["aaaaa","aaaab","aaaba","aaabb","aabaa","aabab","aabba","aabbb","abaaa","abaab","ababa","ababb","abbaa","abbab","abbba","abbbb","baaaa","baaab","baaba","baabb","babaa","babab","babba","babbb"]
     plain1 = ['a','b','c','d','e','f','g','h','(ij)','k','l','m','n','o','p','q','r','s','t','(uv)','w','x','y','z']
     key1 = dict(zip(cipher1,plain1))
