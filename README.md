@@ -39,7 +39,8 @@ morsecodeissointeresting
 FLAGE71CA5CD-7DB9-4BA3-9383-1AF867881F07
 flage71ca5cd-7db9-4ba3-9383-1af867881f07
 ```
-### kaisa.py可解凯撒密码，并能自动推荐最有可能的明文。
+### kaisa.py可解凯撒密码，以大小写英文字母作为密码表，并能自动推荐最有可能的明文。
+### kaisa2.py以所有可打印字符作为密码表，在kaisa.py脚本无法正常解密的情况下可尝试使用。
 ```
 # ./kaisa.py 
 请输入密文：synt{mur_VF_syn9_svtug1at}
