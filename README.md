@@ -76,3 +76,4 @@ python crcFix.py
 
 ## 2. Web安全类脚本
 ### blind.py是采用二分法编写的布尔盲注脚本，脚本以SQLi-labs Less-5为例。
+### sql.py是SQL注入的Fuzz测试脚本，sql.txt是测试字典。
